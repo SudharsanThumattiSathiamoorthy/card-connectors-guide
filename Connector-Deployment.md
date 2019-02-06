@@ -1,5 +1,3 @@
-# Connector Deployment Guide
-
 Deploying a Mobile Flows Connector is not too different from deploying any other public facing service.  Here we will detail the general requirements and provide an example.
 
 <!--- Update the link for connector development when we have our own new documentation for this. -->
