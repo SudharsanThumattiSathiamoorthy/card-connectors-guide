@@ -88,7 +88,7 @@ $heroku local
 3:05:13 PM web.1 |  > node connector.js "--port=5000"
 3:05:13 PM web.1 |  Connector listening on port 5000.
 ```
-Navigate to `localhost:5000` to check it out but pay attention to your console output in case another port was used.  A few more steps are required to deploy to Heroku's cloud.
+Test it by navigating to `localhost:5000`, paying attention to your console output in case another port was used.  A few more steps are required to deploy to Heroku's cloud.
 
 ### Preparing for cloud deploy
 
