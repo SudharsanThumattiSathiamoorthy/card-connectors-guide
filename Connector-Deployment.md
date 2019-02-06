@@ -1,8 +1,5 @@
 Deploying a Mobile Flows Connector is not too different from deploying any other public facing service.  Here we will detail the general requirements and provide an example.
 
-<!--- Update the link for connector development when we have our own new documentation for this. -->
-
-Any queries related to connector functionality or issues integrating a correctly deployed connector with the Mobile Flows Platform should refer to [connector development documentation](https://github.com/vmwaresamples/card-connectors-guide).
 
 ## General Deployment Requirements
 
