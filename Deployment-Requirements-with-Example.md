@@ -70,9 +70,9 @@ In general, these steps should be transferable to any other Node JS connector. T
 Start with a fresh clone of the Weather Connector:
 
 ```
-$git clone https://github.com/vmwaresamples/card-connectors-guide.git
-$cd card-connectors-guide/samples/node
-$npm install
+$ git clone https://github.com/vmwaresamples/card-connectors-guide.git
+$ cd card-connectors-guide/samples/node
+$ npm install
 ```
 
 This is our home directory.  We will be working from here unless otherwise specified.
@@ -81,7 +81,7 @@ This is our home directory.  We will be working from here unless otherwise speci
 You already have enough to deploy the connector locally.  Go ahead and try it:
 
 ```
-$heroku local
+$ heroku local
 
 ...
 
@@ -98,8 +98,8 @@ We will be following [these steps](https://devcenter.heroku.com/articles/getting
 We need to create an app on Heroku:
 
 ```
-$git init
-$heroku create
+$ git init
+$ heroku create
 Creating app... done, ⬢ random-name-4242
 https://random-name-4242.herokuapp.com/ | https://git.heroku.com/random-name-4242.git
 ```
@@ -107,7 +107,7 @@ https://random-name-4242.herokuapp.com/ | https://git.heroku.com/random-name-424
 The Weather Connector listens to port 3000 by default, but we need it to listen to the port Heroku wants to use.  In the Weather Connector repository you should notice a Procfile in the root directory with this line:
 
 ```
-$web: npm start -- --port=$PORT
+web: npm start -- --port=$PORT
 ```
 This lets Heroku know how to start our web process and passes the PORT environment variable to be used.
 
@@ -115,7 +115,7 @@ This lets Heroku know how to start our web process and passes the PORT environme
 Try opening the application in the cloud:
 
 ```
-$heroku open
+$ heroku open
 ```
 
 Navigate to the Weather Connectors image ref to see that it is working.  You should see:
