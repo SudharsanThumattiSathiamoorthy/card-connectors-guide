@@ -104,7 +104,7 @@ Creating app... done, ⬢ random-name-4242
 https://random-name-4242.herokuapp.com/ | https://git.heroku.com/random-name-4242.git
 ```
 
-The Weather Connector listens to port 3000 by default, but we need it to listen to the port Heroku wants to use.  In the Weather Connector repository you should notice a Procfile in the root directory with this line:
+The Weather Connector listens to port 3000 by default, but we need it to listen to the port Heroku wants to use.  In the Weather Connector repository you should notice a [Procfile](https://github.com/vmwaresamples/card-connectors-guide/blob/master/samples/node/Procfile) in the root directory with this line:
 
 ```
 web: npm start -- --port=$PORT
@@ -126,7 +126,6 @@ Navigate to the Weather Connectors image ref to see that it is working.  You sho
 <!--- Add link to UEM configuration guide -->
 
 Congratulations!  Enjoy your deployed connector.
-
 
 
 
