@@ -12,4 +12,4 @@
     * [Card Responses](https://github.com/vmwaresamples/card-connectors-guide/wiki/Card-Responses)
     * [Card Actions](https://github.com/vmwaresamples/card-connectors-guide/wiki/Card-Actions)
 2. Connector Deployment
-    * [Deployment Requirements with Example](https://github.com/jonathanrfisher1/card-connectors-guide/wiki/Deployment-Requirements-with-Example)
+    * [Deployment Requirements with Example](https://github.com/vmwaresamples/card-connectors-guide/wiki/Deployment-Requirements-with-Example)
