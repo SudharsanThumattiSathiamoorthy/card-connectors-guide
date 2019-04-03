@@ -98,7 +98,6 @@ We will be following [these steps](https://devcenter.heroku.com/articles/getting
 We need to create an app on Heroku:
 
 ```
-$ git init
 $ heroku create
 Creating app... done, ⬢ random-name-4242
 https://random-name-4242.herokuapp.com/ | https://git.heroku.com/random-name-4242.git
