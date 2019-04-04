@@ -1,6 +1,6 @@
 A card request consists of one or more tokens. These tokens might be pulled from the text of an email, or they might be from the client's environment &mdash; for example, the user's email address.
 
-The [JSON schema](http://json-schema.org/) for a card request can be found [here](https://vmwaresamples.github.io/card-connectors-guide/#schema/herocard-request-schema.json).
+The [JSON schema](http://json-schema.org/) for a card request can be found [here](https://vmware-samples.github.io/card-connectors-guide/#schema/herocard-request-schema.json).
 
 Here is an example request:
 
