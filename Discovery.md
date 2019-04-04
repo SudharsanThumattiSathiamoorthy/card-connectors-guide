@@ -30,7 +30,7 @@ Here is an example:
   "object_types": {
     "card": {
       "doc": {
-        "href": "https://vmwaresamples.github.io/card-connectors-guide/#schema/herocard-response-schema.json"
+        "href": "https://vmware-samples.github.io/card-connectors-guide/#schema/herocard-response-schema.json"
       },
       "fields": {
         "zip": {
@@ -49,7 +49,7 @@ The `image` link tells Mobile Flows Server where to find an image to be displaye
 
 The `test_auth` link offers an endpoint for testing the backend authorization. This is useful where BASIC authentication is used, and the authorization value is derived from (possibly mistyped) user input. The endpoint will be accessed with a GET request with the same headers as would be used with an object request.
 
-The `actions` object (map/dictionary) describes any global actions offered by this connector (actions that are not related to individual objects defined in `object_types`).  The [JSON schema](http://json-schema.org/) for a connector-level action can be found [here](https://vmwaresamples.github.io/card-connectors-guide/#schema/connector-level-actions-schema.json).
+The `actions` object (map/dictionary) describes any global actions offered by this connector (actions that are not related to individual objects defined in `object_types`).  The [JSON schema](http://json-schema.org/) for a connector-level action can be found [here](https://vmware-samples.github.io/card-connectors-guide/#schema/connector-level-actions-schema.json).
 
 The `object_types` array describes the object types supported by this connector.
 
