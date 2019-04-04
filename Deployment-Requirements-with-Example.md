@@ -70,7 +70,7 @@ In general, these steps should be transferable to any other Node JS connector. T
 Start with a fresh clone of the Weather Connector:
 
 ```
-$ git clone https://github.com/vmwaresamples/card-connectors-guide.git
+$ git clone https://github.com/vmware-samples/card-connectors-guide.git
 $ cd card-connectors-guide/samples/node
 $ npm install
 ```
@@ -103,7 +103,7 @@ Creating app... done, ⬢ random-name-4242
 https://random-name-4242.herokuapp.com/ | https://git.heroku.com/random-name-4242.git
 ```
 
-The Weather Connector listens to port 3000 by default, but we need it to listen to the port Heroku wants to use.  In the Weather Connector repository you should notice a [Procfile](https://github.com/vmwaresamples/card-connectors-guide/blob/master/samples/node/Procfile) in the root directory with this line:
+The Weather Connector listens to port 3000 by default, but we need it to listen to the port Heroku wants to use.  In the Weather Connector repository you should notice a [Procfile](https://github.com/vmware-samples/card-connectors-guide/blob/master/samples/node/Procfile) in the root directory with this line:
 
 ```
 web: npm start -- --port=$PORT
@@ -120,7 +120,7 @@ $ heroku open
 Navigate to the Weather Connectors image ref to see that it is working.  You should see:
 
 
-![Weather Connector Icon](https://github.com/vmwaresamples/card-connectors-guide/blob/master/samples/node/public/images/connector.png?raw=true)
+![Weather Connector Icon](https://github.com/vmware-samples/card-connectors-guide/blob/master/samples/node/public/images/connector.png?raw=true)
 
 <!--- Add link to UEM configuration guide -->
 
