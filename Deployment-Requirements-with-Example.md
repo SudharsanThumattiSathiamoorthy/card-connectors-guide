@@ -53,7 +53,7 @@ This example is targeted for taking an existing connector and quickly making it 
 Tools and Resources:
 
 * Node JS
-* [Weather Connector](https://github.com/vmwaresamples/card-connectors-guide/tree/master/samples/node)
+* [Weather Connector](https://github.com/vmware-samples/card-connectors-guide/tree/master/samples/node)
 * Heroku
 
 Prerequisites:
