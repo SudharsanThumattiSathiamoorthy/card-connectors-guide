@@ -38,6 +38,7 @@ Here is an example:
           "regex": "([0-9]{5})(?:[- ][0-9]{4})?"
         }
       },
+      "pollable": false,
       "endpoint": {
         "href": "https://weather-connector.acme.com/cards/requests"
       }
@@ -53,7 +54,7 @@ The `actions` object (map/dictionary) describes any global actions offered by th
 
 The `object_types` array describes the object types supported by this connector.
 
-Each object type has a name, some fields, an endpoint, and an optional doc link. The name identifies the object type, while the optional doc link should point to a schema so that consumers of these objects know how to parse them. The endpoint is a URL to which Mobile Flows Server will post object requests.
+Each object type has a name, some fields, an endpoint, an optional doc link, and optionally defines if it is pollable. The name identifies the object type, while the optional doc link should point to a schema so that consumers of these objects know how to parse them. The endpoint is a URL to which Mobile Flows Server will post object requests.
 
 The `fields` object is telling Mobile Flows Server what to pass for the `tokens` in an object request. In our example, the connector is requesting `zip`, which will be extracted from some text using the supplied regular expression.
 
@@ -79,3 +80,5 @@ The full list of available environment variables is below:
 | DEVICE_SYSTEM_NAME | Operating system system name (‘iOS’) |
 | DEVICE_SYSTEM_VERSION | Operating system version (‘10.0’) |
 | DEVICE_UI_IDIOM | Operating system device idiom (‘tablet’)|
+
+A pollable object type can be registered for polling with Mobile Flows.  Pollable object types should not require tokens.
