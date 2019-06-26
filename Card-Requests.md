@@ -6,6 +6,9 @@ Here is an example request:
 
 ```javascript
 {
+  "config": {
+    "foo": "bar"
+  },
   "tokens": {
     "zip": [
       "30080",
