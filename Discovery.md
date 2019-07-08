@@ -31,6 +31,10 @@ Here is an example:
     "foo": {
       "default": "bar",
       "type": "STRING",
+      "label": {
+        "en-US": "Foo",
+        "es-ES": "Foo"
+      },
       "description": {
         "en-US": "This ...",
         "es-ES": "Este ..."
