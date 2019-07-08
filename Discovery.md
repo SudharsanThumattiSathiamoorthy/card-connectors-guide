@@ -41,15 +41,27 @@ Here is an example:
       },
       "validators": [
         {
-          "type": "required"
+          "type": "required",
+          "description": {
+            "en-US": "Foo is required",
+            "es-ES": "..."
+          }
         },
         {
           "type": "regex",
-          "value": "^\\w+$"
+          "value": "^\\w+$",
+          "description": {
+            "en-US": "Foo must be only letters and numbers",
+            "es-ES": "..."
+          }
         },
         {
           "type": "max_length",
-          "value": "10"
+          "value": "10",
+          "description": {
+            "en-US": "Foo must not be more than 10 characters",
+            "es-ES": "..."
+          }
         }
       ]
     }
