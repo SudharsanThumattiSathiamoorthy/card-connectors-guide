@@ -23,6 +23,7 @@ Here is an example response:
       },
       "id": "583ff582-0c09-40ab-b8ae-d366a7b95958",
       "hash": "faa939f5556317bd3cff7e92e6ee4eb6cb3af737",
+      "backend_id": "98593717fc9133253e588783c7b3ca94d9afa617",
       "header": {
         "title": "Weather forecast for 30332"
       },
@@ -66,6 +67,7 @@ Here is an example response:
       },
       "id": "f299ea76-1f71-4ec0-af12-8caced30aff5",
       "hash": "8798a78bd7b150837ef108a12c73466465ce01b7",
+      "backend_id": "240817bf03355899a52a616f51b452d9f181d56c",
       "header": {
         "title": "Weather forecast for 30067"
       },
@@ -109,6 +111,7 @@ Here is an example response:
       },
       "id": "c046c0ab-3dc7-4c5a-905e-8b3cdde4d9a1",
       "hash": "360748ccb74419fe459db0963c6441853d88a957",
+      "backend_id": "ebdc977aea6d3ec02c7c6a176073580bf836875b",
       "header": {
         "title": "Weather forecast for 00100"
       },
@@ -152,6 +155,7 @@ Here is an example response:
       },
       "id": "2a9531c4-3cf3-4494-af30-21c9a99cd636",
       "hash": "9af7b47ffdf4288d992f4a384dd166c8e3585ac3",
+      "backend_id": "63ada17e679e155906da48b90166544b38c0e89e",
       "header": {
         "title": "Weather forecast for 30080"
       },
