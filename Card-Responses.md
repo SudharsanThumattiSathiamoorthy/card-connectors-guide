@@ -25,7 +25,10 @@ Here is an example response:
       "hash": "faa939f5556317bd3cff7e92e6ee4eb6cb3af737",
       "backend_id": "98593717fc9133253e588783c7b3ca94d9afa617",
       "header": {
-        "title": "Weather forecast for 30332"
+        "title": "Weather forecast for 30332",
+        "links": {
+          "title": "http://<link-to-weather-forecast-webapp-page-for-30332>"
+        }
       },
       "actions": [
         {
@@ -69,7 +72,10 @@ Here is an example response:
       "hash": "8798a78bd7b150837ef108a12c73466465ce01b7",
       "backend_id": "240817bf03355899a52a616f51b452d9f181d56c",
       "header": {
-        "title": "Weather forecast for 30067"
+        "title": "Weather forecast for 30067",
+        "links": {
+          "title": "http://<link-to-weather-forecast-webapp-page-for-30067>"
+        }
       },
       "actions": [
         {
@@ -113,7 +119,10 @@ Here is an example response:
       "hash": "360748ccb74419fe459db0963c6441853d88a957",
       "backend_id": "ebdc977aea6d3ec02c7c6a176073580bf836875b",
       "header": {
-        "title": "Weather forecast for 00100"
+        "title": "Weather forecast for 00100",
+        "links": {
+          "title": "http://<link-to-weather-forecast-webapp-page-for-00100>"
+        }
       },
       "actions": [
         {
@@ -157,7 +166,10 @@ Here is an example response:
       "hash": "9af7b47ffdf4288d992f4a384dd166c8e3585ac3",
       "backend_id": "63ada17e679e155906da48b90166544b38c0e89e",
       "header": {
-        "title": "Weather forecast for 30080"
+        "title": "Weather forecast for 30080",
+        "links": {
+          "title": "http://<link-to-weather-forecast-webapp-page-for-30080>"
+        }
       },
       "actions": [
         {
