@@ -142,7 +142,7 @@ The `image` link tells Mobile Flows Server where to find an image to be displaye
 
 The `test_auth` link offers an endpoint for testing the backend authorization. This is useful where BASIC authentication is used, and the authorization value is derived from (possibly mistyped) user input. The endpoint will be accessed with a GET request with the same headers as would be used with an object request.
 
-The `actions` object (map/dictionary) describes any global actions (a.k.a connector level actions) offered by this connector These actions are not related to individual objects defined in `object_types`. Each action can ask user inputs (`user_input`) as well as some input `fields`.
+The `actions` object (map/dictionary) describes any global actions (a.k.a connector level actions) offered by this connector. These actions are not related to individual objects defined in `object_types`. Each action can ask user inputs (`user_input`) as well as some input `fields`.
 Action key (`action_key`) gives a hint to the client about how to perform the action. A value called "USER_INPUT" indicates there are some input parameters to be collected from the user, in order to perform the action. In the example `rain_status` is a user input of format called "select".
 For this input format, connector should also provide select options. 
 
