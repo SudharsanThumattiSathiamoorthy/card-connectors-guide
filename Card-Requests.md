@@ -4,7 +4,7 @@ The [JSON schema](http://json-schema.org/) for a card request can be found [here
 
 Here is an example request:
 
-```javascript
+```
 {
   "config": {
     "foo": "bar"

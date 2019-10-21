@@ -10,7 +10,7 @@ first_name=John&last_name=Smith&contact_email=JSmith@airwdemo.com
 ```
 
 ## Response
-Generally the client expects only an HTTP status code to indicate success in a card action. We anticipate adding a status message that could be displayed to the user in a future version of this specification.
+Generally the client expects only an HTTP status code to indicate success in a card action. We anticipate adding a status message or an object of any type that could be displayed to the user in a future version of this specification.
 
 ## Example
 For example, in our [Weather sample](https://github.com/vmware-samples/card-connectors-guide/tree/master/samples/node), the action to update the current temperature is invoked thus:
