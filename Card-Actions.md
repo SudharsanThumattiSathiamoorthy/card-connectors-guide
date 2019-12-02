@@ -32,3 +32,7 @@ Date: Wed, 18 Jul 2018 11:49:29 GMT
 Connection: keep-alive
 Content-Length: 0
 ```
+
+## Action on attachment request
+
+If the connector supports retrieving the file attachments, then the connector should support both `GET` and `HEAD` HTTP methods on the same attachment API. The `HEAD` option is used by the client to check whether the attachment is available or not. The connector can either return `200` or `204` status code if the attachment is available. If the response was `200` or `204`, then the client will do a `GET` request on the attachment API to retrieve the attachment.
